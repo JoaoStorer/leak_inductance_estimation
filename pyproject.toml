@@ -1,0 +1,19 @@
+[project]
+name = "thesis"
+version = "0.1.0"
+description = "Master thesis project on machine learning for leakage inductance estimation in common-mode chokes."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "keras>=3.13.2",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.0.0",
+    "plotly>=6.5.2",
+    "scikit-learn>=1.8.0",
+    "statsmodels>=0.14.6",
+    "streamlit>=1.45.0",
+    "torch>=2.10.0",
+]
